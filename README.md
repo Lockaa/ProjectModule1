@@ -25,3 +25,4 @@ Complete basic exercises in HTML, CSS, and JavaScript to create a simple interac
     made repository and filled out README with basic information, 13:45 - 14:15
     made index.html and css folder                                14:15
     have basic screen template / layout                           14:15 - 15:15
+    filled in data and did extra formatting                       15:15 - 17:45
