@@ -20,4 +20,7 @@ Complete basic exercises in HTML, CSS, and JavaScript to create a simple interac
 # Record Log:
 2/5/2025: started planning for projects overall, 16:30 - 18:30 
 
-2/6/2025: made repository and filled out README with basic information, 13:45 - 
+2/6/2025: made repository and filled out README with basic information, 13:45 - 14:15
+          made index.html and css folder                                14:15
+          have basic screen template / layout                           14:15 - 15:15
+          
