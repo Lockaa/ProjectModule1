@@ -26,5 +26,5 @@ Complete basic exercises in HTML, CSS, and JavaScript to create a simple interac
     made index.html and css folder                                14:15
     have basic screen template / layout                           14:15 - 15:15
     filled in data and did extra formatting                       15:15 - 17:45
-    Challenges:
-    getting the formatting to be in the right spot with CSS work (flex box is very sensitive)
+    Challenges (would like help with this one later):
+    getting the formatting to be in the right spot with CSS work (flex box is very sensitive) [boxes were getting 'squished' and the page wouldn't scroll]
