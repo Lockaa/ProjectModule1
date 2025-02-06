@@ -18,11 +18,13 @@ Complete basic exercises in HTML, CSS, and JavaScript to create a simple interac
     JavaScript code to handle form validation and display an alert.
 
 # Record Log:
-2/5/2025: 
+    2/5/2025: 
     started planning for projects overall, 16:30 - 18:30 
 
-2/6/2025: 
+    2/6/2025: 
     made repository and filled out README with basic information, 13:45 - 14:15
     made index.html and css folder                                14:15
     have basic screen template / layout                           14:15 - 15:15
     filled in data and did extra formatting                       15:15 - 17:45
+    Challenges:
+    getting the formatting to be in the right spot with CSS work (flex box is very sensitive)
