@@ -9,8 +9,9 @@
 
     <body>
         <header>
-            <h3 id="logo">Art Gallery </h3>
-        
+            <h3 id="logo">Angie's Art Gallery </h3>
+            <img src="./images/logo.png" alt="logo">
+
             <nav>
                 <!-- Ctrl + / for comments -->
                 <a href="#about">About</a>
@@ -20,38 +21,54 @@
         </header>
 
         <figure>
-            <img src="./images/art1.jpg" alt="painting 1">
+            <img src="./images/art1.jpg" alt="Painting of an Irish Lake">
             <figcaption>
-                <h3>Painting title 1</h3>
-                <p>Description 1</p>
+                <h3>A Place in Fermangh, Ireland</h3>
+                <p>The blue roof of the barn in the distance draws your eyes across the march in this serence setting</p>
             </figcaption>
         </figure>
 
         <figure>
-            <img src="./images/art2.jpg" alt="painting 2">
+            <img src="./images/art2.jpg" alt="Painting of a Hong Kong Street Market">
             <figcaption>
-                <h3>Painting title 2</h3>
-                <p>Description 2</p>
+                <h3>Street Market in Hong Kong</h3>
+                <p>This vibrant detailed street market exhibits high energy through the array of colors used</p>
             </figcaption>
         </figure>
 
         <figure>
-            <img src="./images/art3.jpg" alt="painting 3">
+            <img src="./images/art3.jpg" alt="Painting of a beach">
             <figcaption>
-                <h3>Painting title 3</h3>
-                <p>Description 3</p>
+                <h3>Walk Along the Beach</h3>
+                <p>The use of light blue projects the calmness of day as the sea and sky mingle together</p>
             </figcaption>
         </figure>
 
-        <article id="contact">
-            <h3> Form </h3>
-            <p>
-                Form fields 
-            </p>
-        </article>
-        
+        <figure id = "contactForm">
+            <h3> Contact us for more information about Angie's art. </h3>
+        </figure>
 
-            
+        <figure id = "contactFormInput">     
+            <form action="/submit_form" method="POST">
+                <label>First Name:</label>
+                <input type="text" name="firstName" placeholder="Enter your first name.">
+                <br>
+                <label>Last Name:</label>
+                <input type="text" name="lastName" placeholder="Enter your last name.">
+                <br>
+                <label>Email:</label>
+                <input type="text" name="email" placeholder="Enter your email.">
+                <br>
+                <label for="medium">Select a medium:</label>
+                <select id="medium" name="medium">
+                    <option value="oil">Oil</option>
+                    <option value="acrylic">Acrylic</option>
+                    <option value="waterColor">Water Color</option>
+                </select>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </figure>
 
         <footer>
             <p>&copy; Copyright 2025 - Allen Lockard   </p>
