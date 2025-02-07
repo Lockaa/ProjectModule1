@@ -28,3 +28,10 @@ Complete basic exercises in HTML, CSS, and JavaScript to create a simple interac
     filled in data and did extra formatting                       15:15 - 17:45
     Challenges (would like help with this one later):
     getting the formatting to be in the right spot with CSS work (flex box is very sensitive) [boxes were getting 'squished' and the page wouldn't scroll]
+
+    2/7/2025:
+    worked on Javascript functionality                            14:00 - 17:00
+
+    Challenges (stuff I wanna work on later with help):
+    I tried to, as a QoL feature, to have the contact form automatically be clicked on when the user clicks 'Contact Us'. this did not work.
+    nothing too much else was a problem.    

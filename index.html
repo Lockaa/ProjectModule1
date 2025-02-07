@@ -4,6 +4,7 @@
         <title>Homepage</title>
 
         <link rel='stylesheet' href="./css/style.css">
+        <script src="./js/script.js" defer></script>
     </head>
     
 
@@ -16,11 +17,11 @@
                 <!-- Ctrl + / for comments -->
                 <a href="#about">About</a>
                 <a href="#work">Artworks</a>
-                <a href="#contact">Contact</a>
+                <a href="#contactForm" id="contactLink">Contact</a>
             </nav>
         </header>
 
-        <figure>
+        <figure id="work">
             <img src="./images/art1.jpg" alt="Painting of an Irish Lake">
             <figcaption>
                 <h3>A Place in Fermangh, Ireland</h3>
@@ -44,20 +45,28 @@
             </figcaption>
         </figure>
 
+        <figure id="about">
+            <h3> About This Website </h3>
+            <p>
+                This website was made to showcase some of Angie's artworks and paintings.
+            </p>
+
+        </figure>
+
         <figure id = "contactForm">
             <h3> Contact us for more information about Angie's art. </h3>
         </figure>
 
         <figure id = "contactFormInput">     
-            <form action="/submit_form" method="POST">
+            <form id = "actualForm" action="" method="POST">
                 <label>First Name:</label>
-                <input type="text" name="firstName" placeholder="Enter your first name.">
+                <input type="text" id="firstName" name="firstName" placeholder="Enter your first name.">
                 <br>
                 <label>Last Name:</label>
-                <input type="text" name="lastName" placeholder="Enter your last name.">
+                <input type="text" id="lastName" name="lastName" placeholder="Enter your last name.">
                 <br>
                 <label>Email:</label>
-                <input type="text" name="email" placeholder="Enter your email.">
+                <input type="text" id="email" name="email" placeholder="Enter your email.">
                 <br>
                 <label for="medium">Select a medium:</label>
                 <select id="medium" name="medium">

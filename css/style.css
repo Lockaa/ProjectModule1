@@ -82,7 +82,7 @@ figure {
   font-size: 30px;
   height: 30vh;
   width: 60vw;
-  background-color: rgb(75, 173, 75);
+  background-color: rgb(232, 125, 18);
   margin: 100px 15vw 0px 15vw;
 }
 
@@ -99,6 +99,13 @@ figure figcaption {
   font-size: 24px;
 }
 
+#about {
+  margin: 50px 20vw 50px 20vw;
+  padding: 0px;
+  display: grid;
+  background-color: #ffffff00;
+}
+
 #contactForm {
   padding: 10px;
   height:50px;
@@ -106,6 +113,7 @@ figure figcaption {
   justify-content: center;
   background-color: rgb(230, 147, 244);
   margin-left: 20vw;
+  margin-top: 50px;
 }
 
 #contactForm h3 {
@@ -117,13 +125,21 @@ figure figcaption {
   padding:10px;
   height:200px;
   margin-top: 0px;
-  background-color: rgb(230, 147, 244);
+  background-color: rgba(241, 163, 255, 0.608);
   margin-left: 20vw;
+}
+
+#contactFormInput form{
+  width: 350px;
+}
+
+#contactFormInput input{
+  width: 250px;
 }
 
 #contactFormInput label{
   font-size: 12px;
-  width: 150px;
+  width: 100px;
 }
 
 #contactFormInput button{
